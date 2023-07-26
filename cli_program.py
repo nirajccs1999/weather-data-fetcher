@@ -16,7 +16,7 @@ def get_weather_by_date(date):
         return None
 
 def get_wind_speed_by_date(date):
-    url = "http://127.0.0.1:5000/weather"
+    url = "http://127.0.0.1:5000/wind_Speed"
     params = {"date": date}
     try:
         response = requests.get(url, params=params)
@@ -31,7 +31,7 @@ def get_wind_speed_by_date(date):
         return None
 
 def get_pressure_by_date(date):
-    url = "http://127.0.0.1:5000/weather"
+    url = "http://127.0.0.1:5000/pressure"
     params = {"date": date}
     try:
         response = requests.get(url, params=params)
