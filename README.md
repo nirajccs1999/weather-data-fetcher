@@ -1,4 +1,4 @@
-# weather-data-fetcher
+## weather-data-fetcher
 Weather Data Fetcher is a Python-based project that enables users to retrieve weather information for specific dates through a user-friendly command-line interface (CLI). The project consists of two primary components:  Flask API (app.py) and CLI Program (cli_program.py) 
 
 Flask API (app.py): A straightforward Flask web application serving weather data in JSON format. The API provides endpoints to access temperature, wind speed, and pressure data for user-specified dates.
@@ -25,3 +25,8 @@ To use the Weather Data Fetcher:
 
 ## Results
 
+<img width="960" alt="cli_get-weather" src="https://github.com/nirajccs1999/weather-data-fetcher/assets/121447767/b2e1ecd8-0e76-4907-83bf-02d8624fc655">
+<img width="960" alt="cli_get-wind-pressure-wrong_date" src="https://github.com/nirajccs1999/weather-data-fetcher/assets/121447767/7a6e0b0c-4fa4-4230-ba01-9d1d2a4efbd9">
+<img width="958" alt="post_get-pressure" src="https://github.com/nirajccs1999/weather-data-fetcher/assets/121447767/5ae08f77-f618-4979-8720-bd71d1ac8b4c">
+<img width="958" alt="postman_get-Weather" src="https://github.com/nirajccs1999/weather-data-fetcher/assets/121447767/0c3290a6-f757-4e0d-bd93-da84e0a3e31d">
+<img width="960" alt="postman_get-wind-speed" src="https://github.com/nirajccs1999/weather-data-fetcher/assets/121447767/8ab5f7e5-57be-42f6-a952-21f9b05962fa">
